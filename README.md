@@ -20,12 +20,6 @@
 - UX를 고려하여 메인화면, 로그인/회원가입, To-Do List, 설문조사 UI 디자인 및 개발
 - To Do List 항목 Create/Delete 기능 개발
 
-### GitHub
-
----
-
-[unuhqueen/Project-Mental-Development](https://github.com/unuhqueen/Project-Mental-Development)
-
 ### 성과 및 실적
 
 ---
