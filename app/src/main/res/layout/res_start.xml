@@ -144,8 +144,7 @@
                 android:gravity="center"
                 android:padding="3dp"
                 android:text="우울 정도를 살펴보고 우울증의 예방, 조기 발견 및 추적 관리를 위한 검사입니다."
-                android:textColor="#527746"
-                android:textSize="13dp" />
+                android:textColor="#527746" />
         </TableRow>
     </TableLayout>
 
