@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="10dp">
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닫기"
+        android:layout_gravity="right"
+        />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결과 : "
+        android:textColor="#FFFFFF"
+        android:background="#86C86F"
+        android:padding="3dp"/>
+    <TextView
+        android:id="@+id/result1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결과 : "
+        android:textColor="#FFFFFF"
+        android:background="#86C86F"
+        android:padding="3dp"/>
+
+    <TextView
+        android:id="@+id/result2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결과 : "
+        android:textColor="#FFFFFF"
+        android:background="#86C86F"
+        android:padding="3dp"/>
+
+    <TextView
+        android:id="@+id/result3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결과 : "
+        android:textColor="#FFFFFF"
+        android:background="#86C86F"
+        android:padding="3dp"/>
+
+    <TextView
+        android:id="@+id/result4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결과 : "
+        android:textColor="#FFFFFF"
+        android:background="#86C86F"
+        android:padding="3dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/resT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="정도 : "
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#527746"/>
+
+        <TextView
+            android:id="@+id/resC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp"
+            android:textColor="#527746"/>
+
+    </LinearLayout>
+
+
+    <com.github.mikephil.charting.charts.RadarChart
+        android:id="@+id/chart"
+        android:layout_width="311dp"
+        android:layout_height="303dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp" />
+
+    <TextView
+        android:id="@+id/inter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결과저장" />
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">res05</string>
+    <string name="attention">아래 문항을 잘 읽으신 후, 지난 1주동안 당신이 느끼고 행동한 것을 가장 잘 나타낸다고 생각되는 답변에 ◯로 표시하십시오.\n 한 문항도 빠짐없이 답해 주시기 바랍니다.</string>
+    <string name="res1">평소에는 성가시지 않았던 일이 성가시게 느껴졌다.</string>
+    <string name="res2">별로 먹고 싶지 않았다. 입맛이 없었다.</string>
+    <string name="res3">가족이나 친구가 도와주더라도 울적한 기분을 떨칠 수 없었다.</string>
+    <string name="res4">나도 다른 사람만큼 기분이 좋았다.</string>
+    <string name="res5">하고 있는 일에 마음을 집중하기가 어려웠다..</string>
+    <string name="res6">우울했다.</string>
+    <string name="res7">하는 일마다 힘들게 느꼈다.</string>
+    <string name="res8">미래에 대해 희망적으로 느꼈다.</string>
+    <string name="res9">내 인생은 실패작이라고 생각했다.</string>
+    <string name="res10">무서움을 느꼈다.</string>
+    <string name="res11">잠을 설쳤다.</string>
+    <string name="res12">행복했다.</string>
+    <string name="res13">평소보다 말을 적게 했다.</string>
+    <string name="res14">외로움을 느꼈다.</string>
+    <string name="res15">사람들이 불친절했다.</string>
+    <string name="res16">인생이 즐거웠다.</string>
+    <string name="res17">울음을 터뜨린 적이 있었다</string>
+    <string name="res18">슬픔을 느꼈다.</string>
+    <string name="res19">사람들이 나를 싫어한다고 느꼈다.</string>
+    <string name="res20">일을 제대로 진척시킬 수 없었다</string>
+    <string name="rc1">신체저하</string>
+    <string name="rc2">긍정정서</string>
+    <string name="rc3">대인관계</string>
+    <string name="rc4">우울정서</string>
+
+    <string name="re1T">정상 : </string>
+    <string name="re2T">경미한 우울 : </string>
+    <string name="re3T">중한 우울 : </string>
+    <string name="re4T">심한 우울 : </string>
+
+    <string name="re1C">유의한 수준의 우울감이 시사되지 않습니다</string>
+    <string name="re2C">다소 경미한 수준의 우울감이 있으나 일상생활에 지장을 줄 정도
+는 아닙니다. 다만, 이러한 기분상태가 지속될 경우 개인의 신체
+적, 심리적 대처자원을 저하시킬 수 있습니다. 그러한 경우, 가까
+운 지역센터나 전문기관을 방문하시기 바랍니다.</string>
+    <string name="re3C">중한 수준의 우울감이 시사됩니다. 이러한 높은 수준의 우울감은
+흔히 신체적, 심리적 대처자원을 저하시키며 개인의 일상생활을
+어렵게 만들기도 합니다. 가까운 지역센터나 전문기관을 방문하
+여 보다 상세한 평가와 도움을 받아보시기 바랍니다. </string>
+    <string name="re4C">심한 수준의 우울감이 시사됩니다. 전문기관의 치료적 개입과
+평가가 요구됩니다.</string>
+
+    <string name="ment_lv1_01">유리 멘탈이에요</string>
+    <string name="ment_lv1_02">소중하게 대해주세요</string>
+    <string name="ment_lv1_03">건들면 깨져버려요</string>
+    <string name="ment_lv1_04">건들지 말아주세요</string>
+    <string name="ment_lv1_05">취급주의</string>
+    <string name="ment_lv1_06">그래도 쉽게 깨지진 않아요</string>
+
+
+    <string name="ment_lv2_01">멘탈 레벨2</string>
+
+    <string name="ment_lv3_01">멘탈 레벨3</string>
+
+    <string name="ment_lv4_01">강철 멘탈</string>
+
+    <string name="ment_lv5_01">다이아몬드 멘탈</string>
+</resources>
