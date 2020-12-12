@@ -40,6 +40,22 @@ public class TodoActivity extends AppCompatActivity {
 
         insertButton = (Button) findViewById(R.id.button_insert_main);
         todoEdit = (EditText) findViewById(R.id.edit_todo_main);
+        
+        todoEdit.setOnKeyListener(new View.OnKeyListener() {
+            @Override
+            public boolean onKey(View v, int keyCode, KeyEvent event) {
+                //Enter key Action
+                if ((event.getAction() == KeyEvent.ACTION_DOWN) && (keyCode == KeyEvent.KEYCODE_ENTER)) {
+                    //Enter키눌렀을떄 처리
+                    Todo newTodo = new Todo(todoEdit.getText().toString());
+                    todoArrayList.add(newTodo);
+                    todoAdapter.notifyDataSetChanged();
+                    todoEdit.setText(null);
+                    return true;
+                }
+                return false;
+            }
+        });
 
         insertButton.setOnClickListener(new View.OnClickListener() {
             @Override
