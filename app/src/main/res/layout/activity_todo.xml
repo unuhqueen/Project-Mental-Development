@@ -32,7 +32,8 @@
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:hint="할 일"
-            android:layout_margin="20dp"/>
+            android:layout_margin="20dp"
+            android:inputType="textFilter"/>
 
         <Button
             android:id="@+id/button_insert_main"
